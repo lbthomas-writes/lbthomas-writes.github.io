@@ -15,6 +15,14 @@
 | Preview Hugo site | `hugo server -D` |
 | Build Hugo site   | `hugo`           |
 
+## GitHub Pages Deployment Setup
+
+To make the site go live, you must configure the following in the GitHub repository settings:
+
+1.  **Source**: Go to **Settings** > **Pages**. Under **Build and deployment** > **Source**, select **GitHub Actions** from the dropdown menu.
+2.  **Visibility**: Ensure the repository is **Public** (Settings > General > Danger Zone). GitHub Pages is only free for public repositories on standard accounts.
+3.  **Custom Domain (Optional)**: If you use a custom domain, add it in the Pages settings; otherwise, it will be served at `https://lbthomas-writes.github.io/`.
+
 ## Content and writing conventions
 
 - Use the PaperMod theme styles; avoid custom CSS unless necessary.
