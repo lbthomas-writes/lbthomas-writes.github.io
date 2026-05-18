@@ -1,0 +1,4 @@
+baseURL = 'https://lbthomas-writes.github.io/'
+locale = 'en-us'
+title = 'Welcome to LB Thomas Writes'
+theme = 'papermod'
